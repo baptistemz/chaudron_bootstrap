@@ -1,0 +1,12 @@
+body{
+  margin-top: 20px
+}
+.list-md-width{
+  width:400px;
+  margin: auto
+}
+
+#contact-form{
+  width:400px;
+  margin: auto;
+}
