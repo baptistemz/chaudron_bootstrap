@@ -17,57 +17,98 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
+    <div class="home-head">
       <div class="text-center">
         <img class="img-rounded img-thumbnail" src="https://pbs.twimg.com/profile_images/564462508145004544/BOIto2El.jpeg" alt="baptiste" style="width:160px">
         <h1>Baptiste</h1>
         <h2>Développeur Web</h2>
         <br>
-        <a class="btn btn-success" href="contact.html">Contact</a>
+        <a class="btn btn-primary" href="contact.html">Contact</a>
       </div>
       <BR></BR>
-      <ul class="nav nav-tabs nav-justified">
-        <li role="presentation" class="active">
-          <a href="#competences" aria-controls="competences" role="tab" data-toggle="tab">Mes compétences</a>
-        </li>
-        <li role="presentation">
-          <a href="#experiences" aria-controls="experiences" role="tab" data-toggle="tab">Mes expériences</a>
-        </li>
-      </ul>
-      <br>
-      <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="competences">
-          <h3 class= "text-center">Mes compétences</h3>
+      <div class="container">
+
+        <ul class="nav nav-primary nav-tabs nav-justified ">
+          <li role="presentation" class="active">
+            <a href="#competences" aria-controls="competences" role="tab" data-toggle="tab">Mes compétences</a>
+          </li>
+          <li role="presentation">
+            <a href="#experiences" aria-controls="experiences" role="tab" data-toggle="tab">Mes expériences</a>
+          </li>
+        </ul>
+        <div class="home-body">
           <br>
-          <ul class="list-group list-md-width">
-            <li class="list-group-item">Ruby on Rails</li>
-            <li class="list-group-item">ReactJS</li>
-            <li class="list-group-item">Web Marketing</li>
-          </ul>
-        </div>
-        <div role="tabpanel" class="tab-pane" id="experiences">
-          <h3 class="text-center">Mes expériences</h3>
-          <br>
-          <ul class="list-group list-md-width">
-            <li class="list-group-item">
-              <h4>Vendeur rayon cycles</h4>
-              <p class="text-primary">Decathlon Londres</p>
-              <p>6 mois</p>
-            </li>
-            <li class="list-group-item">
-              <h4>Consultant marketing mobile</h4>
-              <p class="text-primary">ikomobi</p>
-              <p>8 mois</p>
-            </li>
-            <li class="list-group-item">
-              <h4>Intervenant/facilitateur</h4>
-              <p class="text-primary">lechaudron.io</p>
-              <p>1 mois</p>
-            </li>
-          </ul>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="competences">
+              <h2 class= "text-center">Mes compétences</h2>
+              <br>
+              <ul class="list-group list-md-width">
+                <li class="list-group-item">Ruby on Rails</li>
+                <li class="list-group-item">ReactJS</li>
+                <li class="list-group-item">Web Marketing</li>
+              </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="experiences">
+              <h2 class="text-center">Mes expériences</h2>
+              <br>
+              <ul class="list-inline">
+                <li class= "third-width">
+                  <div class="well">
+                    <div class="well-header">
+                      <h3>Vendeur rayon cycles</h3>
+                    </div>
+                    <h5 class="text-primary">decathlon Londres</h5>
+                    <p><em>6 mois</em></p>
+                  </div>
+                </li>
+                <li class= "third-width">
+                  <div class="well">
+                    <div class="well-header">
+                      <h3>Consultant Marketing Mobile</h3>
+                    </div>
+                    <h5 class="text-primary">ikomobi</h5>
+                    <p><em>8 mois</em></p>
+                  </div>
+                </li>
+                <li class= "third-width">
+                  <div class="well">
+                    <div class="well-header">
+                      <h3>Intervenant / Facilitateur</h3>
+                    </div>
+                    <h5 class="text-primary">le chaudron</h5>
+                    <p><em>3 mois</em></p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <footer>
+      <ul class= "list-inline">
+        <li>
+          <a href="#">
+            <i class= "fa fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class= "fa fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class= "fa fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class= "fa fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
